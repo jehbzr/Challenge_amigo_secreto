@@ -26,7 +26,7 @@ function adicionarAmigo(){
 }
     
 
-// função para atualizar lista
+// atualiza a lista
     function atualizaLista(){
         let listaAmigos= document.getElementById('listaAmigos');
         listaAmigos.innerHTML="";
