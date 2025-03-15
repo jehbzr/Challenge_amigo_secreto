@@ -11,6 +11,8 @@ function adicionarAmigo(){
     if(nomeDoAmigo===""){
         alert('Insira um nome,porfavor!');
     }
+
+    // alerta sobre um nome duplicado
     if(amigos.includes(nomeDoAmigo)){
 
         alert('Esse nome já está na lista!');
