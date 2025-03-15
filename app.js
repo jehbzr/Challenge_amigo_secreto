@@ -31,7 +31,7 @@ function adicionarAmigo(){
         let listaAmigos= document.getElementById('listaAmigos');
         listaAmigos.innerHTML="";
         let i=0; 
-
+        
             while(i < amigos.length){
                 let nome =document.createElement('li');
                 nome.textContent = amigos[i];
